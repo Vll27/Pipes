@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-pagina1',
   templateUrl: './pagina1.component.html',
   styleUrls: ['./pagina1.component.css']
 })
-export class Pagina1Component implements OnInit {
+export class Pagina1Component {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  colonia: string = 'UniDAD de ProPositO';
 
 }
