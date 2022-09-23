@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Pagina2Component implements OnInit {
 
-  constructor() { }
+  people = [
+    { name: 'Matheus' },
+    { name: 'João' },
+    { name: 'Rodrigo' },
+    { name: 'Camila' },
+    { name: 'Talita' },
+    { name: 'Patricia' },
+    { name: 'Cesar'}
+  ];
 
-  ngOnInit(): void {
-  }
 
 }
